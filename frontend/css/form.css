@@ -190,10 +190,21 @@ h1{
     transform: translateX(-50%);
 }
 
+<<<<<<< HEAD
 .signup-body{
+=======
+.signup-body {
+>>>>>>> main
     background-color: #f0f0f0;
+    display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+  min-height: 100vh;        /* Pure screen ka height */
+  background: #f2f2f2;      /* Jo bhi background chahiye */
+  margin: 0;
 }
 
+/* Signup container */
 .signup_page {
     background: #ffffff;
     display: flex;
@@ -206,17 +217,20 @@ h1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 450px;
-    height: 60vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;  
-    transform: translate(-50%, -50%);
-}   
+    height: auto;
+    margin: 40px auto;    
+    position: relative;  
+}
+
+/* Input fields */
 #signupForm input {
     background-color: #fff;
+<<<<<<< HEAD
     margin-top: 10px;
     width: 80%;
     height: 40px;
+=======
+>>>>>>> main
     width: 95%;
     height: 60px;
     font-size: 17px;
@@ -226,27 +240,26 @@ h1{
     border: none;
     box-shadow: 0 4px 15px rgba(41, 98, 255, 0.3);
     outline: none;
+}
 
-}
-#signupForm input:active {
-    transform: translateY(-2px);
-    transition: all 0.1s ease;
-}
-label{
-    padding: 1px;
+/* Labels */
+label {
     font-size: 20px;
-    margin: 10px ;
+    margin: 10px;
     color: #313131;
 }
+
 ::placeholder {
     font-weight: 400;
     color: #9a9999;
 }
-p{
+
+p {
     font-size: 15px;
     color: #313131;
 }
 
+<<<<<<< HEAD
 @media (max-width: 900px) {
     .signup_page {
         padding: 30px;
@@ -268,12 +281,35 @@ p{
         height: 45px;
         font-size: 15px;
         padding: 0 10px;
+=======
+/* ------------------- MEDIA QUERIES ------------------- */
+
+/* Tablets */
+@media (max-width: 900px) {
+    .signup_page {
+        padding: 40px;
+        max-width: 80%;
+        border-radius: 40px;
+        margin: 20px auto;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    label {
+        font-size: 16px;
+    }
+    #signupForm input {
+        height: 50px;
+        font-size: 15px;
+        padding: 0 12px;
+>>>>>>> main
     }
     p {
         font-size: 13px;
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 600px) {
     .signup_page {
         padding: 20px;
@@ -288,13 +324,36 @@ p{
     label {
         font-size: 14px;
         margin: 5px;
+=======
+/* Mobile */
+@media (max-width: 600px) {
+    .signup_page {
+        padding: 20px;
+        max-width: 95%;
+        border-radius: 25px;
+        gap: 8px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    label {
+        font-size: 14px;
+>>>>>>> main
     }
     #signupForm input {
         height: 40px;
         font-size: 13px;
+<<<<<<< HEAD
         padding: 0 8px;
+=======
+        padding: 0 10px;
+>>>>>>> main
     }
     p {
         font-size: 11px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
