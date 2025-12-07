@@ -47,7 +47,6 @@ body {
     transform: scale(1);
     background-color: #fbf8f817;
     transition: transform 0.1s ease;
-
 }
 
 .sidebar {
@@ -68,8 +67,8 @@ body {
 .sidebar-nav {
     display: flex;
     flex-direction: column;
-    height: 100%;  
-    justify-content: space-between; 
+    height: 100%;
+    justify-content: space-between;
 }
 
 .logo {
@@ -153,7 +152,7 @@ body {
     }
 
     .sidebar-nav {
-    justify-content: space-between; 
+    justify-content: space-between;
     height: 40%;
     }
 
@@ -562,7 +561,7 @@ div.response-feedback span {
     .dark-mode {
         color: #ffffff !important;
         border-color: #444 !important;
-        background-color: #121212; 
+        background-color: #121212;
     }
 
     .dark-mode .sidebar,

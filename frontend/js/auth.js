@@ -20,7 +20,7 @@ if (signupForm) {
         }
 
     localStorage.setItem('user', JSON.stringify({ username, password }));
-    
+
     alert("Signup successful! Please login.");
     window.location.href = "login.html";
     });

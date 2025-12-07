@@ -26,8 +26,8 @@
 /* added  response in login page */
 @media (max-width: 600px) {
     .login-container{
-        padding: 40px; 
-        max-width: 90%; 
+        padding: 40px;
+        max-width: 90%;
         border-radius: 40px;
         margin: 10px;
     }
@@ -36,25 +36,24 @@
     }
     .sign-up-link a {
         font-size: 15px;
-        white-space: nowrap; 
+        white-space: nowrap;
     }
     .input-box{
         max-width: 90%;
     }
     #submit{
         font-size: 18px;
-    } 
+    }
     .forgot section label{
         font-size: 15px;
     }
     .forgot section a{
         font-size: 12px;
-    } 
+    }
     .sign-up-link{
         justify-content: center;
         gap: 10px;
     }
-    
 }
 .login-header {
     text-align: center;
@@ -186,27 +185,23 @@ h1{
     color: #414141;
     position: absolute;
     top: 30px;
-    left: 50%;      
+    left: 50%;
     transform: translateX(-50%);
 }
 
-<<<<<<< HEAD
 .signup-body{
-=======
-.signup-body {
->>>>>>> main
     background-color: #f0f0f0;
     display: flex;
-  justify-content: center;  /* Horizontal center */
-  align-items: center;      /* Vertical center */
-  min-height: 100vh;        /* Pure screen ka height */
-  background: #f2f2f2;      /* Jo bhi background chahiye */
-  margin: 0;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;      /* Vertical center */
+    min-height: 100vh;
+    background: #f2f2f2;
+    margin: 0;
 }
 
 /* Signup container */
 .signup_page {
-    background: #ffffff;
+    background: #e3e3e3;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -218,19 +213,16 @@ h1{
     width: 100%;
     max-width: 450px;
     height: auto;
-    margin: 40px auto;    
-    position: relative;  
+    margin: 40px auto;
+    position: relative;
 }
 
 /* Input fields */
 #signupForm input {
     background-color: #fff;
-<<<<<<< HEAD
     margin-top: 10px;
     width: 80%;
     height: 40px;
-=======
->>>>>>> main
     width: 95%;
     height: 60px;
     font-size: 17px;
@@ -259,7 +251,6 @@ p {
     color: #313131;
 }
 
-<<<<<<< HEAD
 @media (max-width: 900px) {
     .signup_page {
         padding: 30px;
@@ -277,39 +268,16 @@ p {
         font-size: 16px;
         margin: 8px;
     }
-    #signuForm input {
+    #signupForm input {
         height: 45px;
         font-size: 15px;
         padding: 0 10px;
-=======
-/* ------------------- MEDIA QUERIES ------------------- */
-
-/* Tablets */
-@media (max-width: 900px) {
-    .signup_page {
-        padding: 40px;
-        max-width: 80%;
-        border-radius: 40px;
-        margin: 20px auto;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    label {
-        font-size: 16px;
-    }
-    #signupForm input {
-        height: 50px;
-        font-size: 15px;
-        padding: 0 12px;
->>>>>>> main
     }
     p {
         font-size: 13px;
     }
 }
 
-<<<<<<< HEAD
 @media (max-width: 600px) {
     .signup_page {
         padding: 20px;
@@ -324,36 +292,13 @@ p {
     label {
         font-size: 14px;
         margin: 5px;
-=======
-/* Mobile */
-@media (max-width: 600px) {
-    .signup_page {
-        padding: 20px;
-        max-width: 95%;
-        border-radius: 25px;
-        gap: 8px;
-    }
-    h1 {
-        font-size: 22px;
-    }
-    label {
-        font-size: 14px;
->>>>>>> main
     }
     #signupForm input {
         height: 40px;
         font-size: 13px;
-<<<<<<< HEAD
         padding: 0 8px;
-=======
-        padding: 0 10px;
->>>>>>> main
     }
     p {
         font-size: 11px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> main

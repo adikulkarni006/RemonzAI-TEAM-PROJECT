@@ -3,7 +3,7 @@
 // e.preventDefault();
     const title = document.getElementById('title').value.trim();
     const category = document.getElementById('category').value;
-    const description = document.getElementById('description').value.trim(); 
+    const description = document.getElementById('description').value.trim();
 
 //   if (!title || !description) {
 //     alert("Please fill in all fields.");
@@ -14,7 +14,6 @@
 //   console.log('Query Submitted:', query);
 //   alert("Query submitted successfully!\nTitle: " + title + "\nCategory: " + category);
 
-//   // Optional: Save to localStorage
 //   const savedQueries = JSON.parse(localStorage.getItem('queries') || '[]');
 //   savedQueries.push(query);
 //   localStorage.setItem('queries', JSON.stringify(savedQueries));
