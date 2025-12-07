@@ -31,21 +31,9 @@ cd MERN-TEAM-PROJECT
 
 👤 @ritesh5585 (Frontend)
 
-👤 @PARTH-TUSSLE (Frontend)
-
-👤 @ChiragJadhav338 (Frontend)
-
-👤 @KalpanaUjad (Frontend)
-
 ---------------
 
 👤 @Nissh01 (Backend)
-
-👤 @VishuMahla (Backend)
-
-👤 @roshan-vp (Backend)
-
-👤 @mr-coder90 (Backend)
 
 ---------------
 
