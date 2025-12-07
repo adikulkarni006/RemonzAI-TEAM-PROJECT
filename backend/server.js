@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 // Simple test route
 app.get('/test', (req, res) => {
     console.log('🌟 Basic test route hit');
-  res.json({ 
+  res.json({
     message: '🚀 RemonzAi Backend is running!',
     status: 'success',
     timestamp: new Date().toISOString()
@@ -44,7 +44,7 @@ app.get('/test', (req, res) => {
 
 // Health check route
 app.get('/api/health', (req, res) => {
-  res.json({ 
+  res.json({
     status: 'OK',
     message: 'Server is healthy',
     uptime: process.uptime()
@@ -72,7 +72,7 @@ app.post('/signup', async (req, res) => {
     //hash the password
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
-    
+
     //create new user
     let createdUser = await userModel.create({
         username,
@@ -118,7 +118,7 @@ app.post("/login", async (req, res) => {
   }
 })
 
-// Logout 
+// Logout
 app.get('/logout', (req, res) => {
     res.cookie("token", "");
     res.redirect("/")
@@ -127,7 +127,7 @@ app.get('/logout', (req, res) => {
 // Basic error handling
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ 
+  res.status(500).json({
     message: 'Something went wrong!',
     error: process.env.NODE_ENV === 'development' ? err.message : 'Internal server error'
   });
