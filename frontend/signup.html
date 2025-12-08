@@ -3,31 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Signup | RemonzAi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/form.css" />
 </head>
-<body>
+<body class="signup-body">
 
   <div class="signup_page">
     <div class="signup-container">
-          <h1>Sign up 👤</h1>
-    <form id="signupForm" method="post" action="/signup">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="you@example.com" required />
+      <h1>Sign up 👤</h1>
 
-      <label for="signup-username">Create username</label>
-      <input type="text" name="username" id="signup-username" placeholder="Username" required />
+      <form id="signupForm" method="post" action="/signup">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com" required />
 
-      <label for="create-password">Create Password</label>
-      <input type="password" name="password" id="create-password" placeholder="Create Password" required />
+        <label for="signup-username">Create username</label>
+        <input type="text" name="username" id="signup-username" placeholder="Username" required />
+
+        <label for="create-password">Create Password</label>
+        <input type="password" name="password" id="create-password" placeholder="Create Password" required />
+
+        <div class="sign-up-link">
+          <button type="submit" class="submit-btn">Sign Up →</button>
+        </div>
+      </form>
 
       <div class="sign-up-link">
-        <button type="submit" class="submit-btn">Sign Up →</button>
+        <p>Already have an account?</p>
+        <a href="login.html">Login here!</a>
       </div>
-    </form>
-    <div class="sign-up-link">
-      <p>Already have an account? </p><a href="login.html">Login here!</a>
     </div>
-  </div>
   </div>
 
   <!-- <script src="js/auth.js"></script> -->
